@@ -9,7 +9,7 @@ Shell script to setup the Raspberry Pi 1 / 2 / 3 with several emulators, various
 This script is designed for use on Raspbian Jessie and Wheezy for the Raspberry Pi. Before using the script, please **make sure that you have run the raspi-config script to extend your root file system **. You can run the script with
 
 ```shell
-sudo raspi-config
+sudo raspi-config --expand-rootfs
 ```
 
 To run the RetroPie Setup Script make sure that your APT repositories are up-to-date and that Git is installed:
